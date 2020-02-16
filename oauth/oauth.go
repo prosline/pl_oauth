@@ -14,7 +14,6 @@ import (
 
 type oauthClient struct{}
 
-
 type accessToken struct {
 	Id       string `json:"id"`
 	UserId   int64  `json:"user_id"`
